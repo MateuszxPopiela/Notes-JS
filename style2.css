@@ -1,0 +1,73 @@
+*{
+margin: 0 auto;
+padding: 0; 
+}
+body{
+  background-color: grey;
+}
+textarea {
+  resize: none;
+  
+}
+.firstNote {
+  color: #fff;
+  padding: 20px;
+  order: 0;
+}
+.firstNote .noteDesc{
+  margin-top: 10px;
+}
+.firstNote .noteTitle{
+  height: 20px;
+}
+.firstNote footer{
+  padding-top: 10px;
+  text-align: right;
+}
+.note {
+  color: #fff;
+  padding: 20px;
+  order: 2;
+}
+.noteTitle{
+  text-align: center;
+}
+.noteDesc{
+  height: 350px;
+
+}
+.noteTitle, .noteDesc{
+  width: 800px;
+  background-color:white;
+  color:black;
+}
+.noteFooter button, .noteFooter input{
+  float: right;
+}
+#wrapper {
+  padding-left: 200px;
+  padding-top: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns:repeat(auto-fill, 400px);
+  grid-auto-flow: row;
+  grid-gap: 10px;
+  justify-content: center;
+}
+.holder{
+  display: inline-block;
+}
+.color{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.red{
+  background: red;
+}
+.blue{
+  background: blue;
+}
+.green{
+  background: green;
+}

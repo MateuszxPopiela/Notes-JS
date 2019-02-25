@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="wrapper">
+      <div class="firstNote blue">
+        <form id="form" name="form">
+          <input type="text" name="title" class="noteTitle" placeholder="Tu wpisz tytuł" required>
+          <input type="text" name="title" class="noteTitle" placeholder="Tu wpisz adresata" required>
+          <input type="text" name="description" class="noteDesc">
+          <footer class="noteFooter">
+            <div class="holder">
+              Kolor:
+            <div class="color red" onclick="changeColor(this)"><center>R</center></div>
+            <div class="color blue"onclick="changeColor(this)"><center>B</center></div>
+            <div class="color green"onclick="changeColor(this)"><center>G</center></div>
+            </div>
+            </form><br/>
+            <button type="submit">Wyślij</button>
+            <button type="reset" >reset</button>
+            
+                       
+          </footer>
+        
+      </div></form>
+    </div>
+
+    <script src="js2.js"></script>
+    
+</body>
+</html>
